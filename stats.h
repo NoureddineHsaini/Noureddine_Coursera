@@ -34,19 +34,6 @@
 
 
 
-/**
- * @brief <Add Brief Description of Function Here>
- *
- * <Add Extended Description Here>
- *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- *
- * @return <Add Return Informaiton here>
- */
-/**
  * @brief A function that prints the statistics of an array including minimum, maximum, mean, and median.
  *
 
