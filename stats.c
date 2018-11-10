@@ -32,6 +32,8 @@
  *
  */
 
+
+
 #include <stdio.h>
 #include "stats.h"
 
@@ -47,8 +49,52 @@ void main() {
                                 7,  87, 250, 230,  99,   3, 100,  90};
 
   /* Other Variable Declarations Go Here */
-  /* Statistics and Printing Functions Go Here */
+  /* Statistics and Printing Functions */
+void print_statistics(){
+  
+} 
+
+
+
+}
+/* Displaying elements of a table */
+void print_array(unsigned char  *test, int size)
+{
+	
+}
+/* Calculation of the median */
+unsigned char find_median(unsigned char *test, int size){
+ 
 
 }
 
-/* Add other Implementation File Code Here */
+
+
+/* Calculation of the mean */
+double  find_mean (unsigned char *test, int size)
+{
+
+}
+
+
+/* Calculation of the maximum */
+unsigned char find_maximum (unsigned char *test, int size)
+{
+
+}
+
+/* Calculation of the minimum */
+unsigned char find_minimum (unsigned char *test, int size)
+{
+
+	
+}
+
+/* sorts the array from largest to smallest */
+void sort_array(unsigned char *test, int size){
+  
+      } 
+
+
+
+}

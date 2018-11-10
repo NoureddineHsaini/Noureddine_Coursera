@@ -32,7 +32,7 @@
 #ifndef __STATS_H__
 #define __STATS_H__
 
-/* Add Your Declarations and Function Comments here */ 
+
 
 /**
  * @brief <Add Brief Description of Function Here>
@@ -46,6 +46,76 @@
  *
  * @return <Add Return Informaiton here>
  */
+/**
+ * @brief A function that prints the statistics of an array including minimum, maximum, mean, and median.
+ *
 
+ */
+void print_statistics();
+/**
+ * @brief prints the array to the screen
+ *
+ * the role of this function is to display the array data on  the screen
+
+ * @param test the arraye data
+ * @param size the length of array
+
+ */
+void print_array(unsigned char  *test, int size);
+/**
+ * @brief Calculation of the median
+ *
+ * the role of this function is to Calculation of the median the array data and return the median value 
+
+ * @param test the arraye data
+ * @param size the length of array
+ * @return Return the median of array
+
+ */
+unsigned char find_median(unsigned char *test, int size);
+/**
+ * @brief Calculation of the mean
+ *
+ * the role of this function is to Calculation of the mean the array data and return the mean value 
+
+ * @param test the arraye data
+ * @param size the length of array
+ * @return Return the mean of array
+
+ */
+double  find_mean (unsigned char *test, int size);
+/**
+ * @brief Calculation of the maximum
+ *
+ * the role of this function is to Calculation of the maximum the array data and return the maximum value 
+
+ * @param test the arraye data
+ * @param size the length of array
+ * @return Return the maximum of array
+
+ */
+unsigned char find_maximum (unsigned char *test, int size);
+/**
+ * @brief Calculation of the minimum
+ *
+ * the role of this function is to Calculation of the minimum the array data and return the minimum value 
+
+ * @param test the arraye data
+ * @param size the length of array
+ * @return Return the minimum of array
+
+ */
+unsigned char find_minimum (unsigned char *test, int size);
+/**
+ * @brief sorts the array from largest to smallest 
+ *
+ * the role of this function is to sorts the array from largest to smallest and desplay new array 
+
+ * @param test the arraye data
+ * @param size the length of array
+
+
+ */
+void sort_array(unsigned char *test, int size);
 
 #endif /* __STATS_H__ */
